@@ -1,0 +1,19 @@
+## ✅What is Typescript ?
+
+📍Typescript is a superset of javascript that add static typing and other features to enhance javascript development.
+
+📍Typescript is a programming language developed and maintained by Microsoft on Oct 1, 2012 and is now an open source project with a large community of contributers.
+
+📍Javascript + extra concept : Typescript📌
+
+## ✅Typescript Advantages :
+
+1.📍Type Annotations
+2.📍Easier to write
+3.📍Type Inference
+4.📍Easier to maintain (interfaces, Tuples, Enums Generic, Classes )
+5.📌Typescript catches errors at compile time instead of run time , which makes debugging easier and reduces the likelyhood of bugs in production.
+
+## ✅Typescript Disadvantages :
+
+1.📍Browser doesn't support TypeScript
