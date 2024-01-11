@@ -16,8 +16,20 @@ var nanvalue = NaN;
 console.log(nanvalue);
 //* String Type :📌
 //*any value under single of double quotes are treated as string, Also any exp. result string as output
+// Todo *️⃣Concatenation:
 var fullname = "Kirttinath";
 var fname = "Kirtti";
 var lname = "ojha";
 fullname = fname + lname;
 console.log(fullname);
+// Todo *️⃣String Initialization :
+var str = "Hello, Typescript!";
+console.log(str);
+// Todo *️⃣String Length :
+var sentencelength = str.length;
+console.log(sentencelength);
+// Todo *️⃣Uppercase and Lowercase :
+var uppercaseText = fullname.toUpperCase();
+var lowercaseText = fullname.toLowerCase();
+console.log(uppercaseText);
+console.log(lowercaseText);

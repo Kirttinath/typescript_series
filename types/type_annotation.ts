@@ -27,8 +27,23 @@ console.log(nanvalue);
 //* String Type :📌
 //*any value under single of double quotes are treated as string, Also any exp. result string as output
 
+// Todo *️⃣Concatenation:
 let fullname = "Kirttinath";
 let fname = "Kirtti";
 let lname = "ojha";
 fullname = fname + lname;
 console.log(fullname);
+
+// Todo *️⃣String Initialization :
+let str: string = "Hello, Typescript!";
+console.log(str);
+
+// Todo *️⃣String Length :
+let sentencelength: number = str.length;
+console.log(sentencelength);
+
+// Todo *️⃣Uppercase and Lowercase :
+let uppercaseText = fullname.toUpperCase();
+let lowercaseText = fullname.toLowerCase();
+console.log(uppercaseText);
+console.log(lowercaseText);
