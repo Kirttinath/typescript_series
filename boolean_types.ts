@@ -29,5 +29,8 @@ console.log(isdiv(16));
 
 //? In  JS we can't read the whole numbers beyond 2 raise to power 53.
 
-var bigNum: bigint = 9007199254740992n;
-console.log(bigNum);
+let bigNum: bigint = 9007199254740992n;
+
+let anotherbigNum: bigint = BigInt("9007199254740991");
+
+console.log(bigNum + anotherbigNum);

@@ -23,4 +23,5 @@ console.log(isdiv(16));
 //? BigInt literals are written by appending the n suffix to an integer literal.
 //? In  JS we can't read the whole numbers beyond 2 raise to power 53.
 var bigNum = 9007199254740992n;
-console.log(bigNum);
+var anotherbigNum = BigInt("9007199254740991");
+console.log(bigNum + anotherbigNum);
