@@ -20,3 +20,14 @@ function isdiv(divnum: number): boolean {
   else return false;
 }
 console.log(isdiv(16));
+
+//* BigInt Types :
+
+//? It is a built-in types that allows you to work with numbers that are larger than the range supported by the regular number type.
+
+//? BigInt literals are written by appending the n suffix to an integer literal.
+
+//? In  JS we can't read the whole numbers beyond 2 raise to power 53.
+
+let maxNum: bigint = 9007199254740992n;
+console.log(maxNum);
