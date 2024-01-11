@@ -29,7 +29,5 @@
 📌The main difference between the .ts and .tsx extensions is that the tsx extension is used for TypeScript files that include JSX syntax, while the .ts extension is used for regular TypeScript files that do not contain JSX.
 
 📍Static typing :
-
----
-
-- The static typing means checks the types of variables at compile time instead of run time.
+_______________________
+The static typing means checks the types of variables at compile time instead of run time.
