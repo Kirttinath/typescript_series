@@ -23,3 +23,5 @@
 ## ✅INSTALLATION AND PREREQUISITES :
 
 📍Prerequisites :
+
+📌The main difference between the .ts and .tsx extensions is that the tsx extension is used for TypeScript files that include JSX syntax, while the .ts extension is used for regular TypeScript files that do not contain JSX.
