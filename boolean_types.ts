@@ -29,6 +29,9 @@ console.log(isdiv(16));
 
 //? In  JS we can't read the whole numbers beyond 2 raise to power 53.
 
+let maxNum: bigint = (Number as any).MAX_SAFE_INTEGER;
+console.log(maxNum);
+
 let bigNum: bigint = 9007199254740992n;
 
 let anotherbigNum: bigint = BigInt("9007199254740991");
