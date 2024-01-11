@@ -8,3 +8,9 @@ var num1 = 10;
 var str1 = "Hello";
 //* num1 = "kirtti";
 console.log(num1.toString());
+//* Number Type 📌
+//? The number type represents numeric values, including integers and floating-point numbers.
+//TODO Arithimatic Operations:
+//? Number types in Typescript support arithimatic operations such as (+,-,*,/) and the results of these operations are also numbers.
+var nanvalue = NaN;
+console.log(nanvalue);

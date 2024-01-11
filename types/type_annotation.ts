@@ -20,3 +20,6 @@ console.log(num1.toString());
 
 //TODO Arithimatic Operations:
 //? Number types in Typescript support arithimatic operations such as (+,-,*,/) and the results of these operations are also numbers.
+
+let nanvalue: number = NaN;
+console.log(nanvalue);
