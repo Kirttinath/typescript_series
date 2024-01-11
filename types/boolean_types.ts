@@ -12,3 +12,11 @@ function isEven(evnum: number): boolean {
   else return false;
 }
 console.log(isEven(2));
+
+//! Divisible by 4 and 8
+
+function isdiv(divnum: number): boolean {
+  if (divnum % 4 == 0 && divnum % 8 == 0) return true;
+  else return false;
+}
+console.log(isdiv(16));
