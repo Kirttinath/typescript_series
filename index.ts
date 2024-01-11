@@ -6,8 +6,8 @@
 //*num = 65;
 
 //*2nd program (add two numbers)
-function add(num1: number, num2: number) {
-  return num1 + num2;
+function sum(a: number, b: number): number {
+  return a + b;
 }
 
-console.log(add(7, 3)); //*O/P :7Number because in parameter we don't use type annotation
+console.log(sum(7, 3)); //*O/P :7Number because in parameter we don't use type annotation
