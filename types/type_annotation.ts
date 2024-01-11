@@ -23,3 +23,6 @@ console.log(num1.toString());
 
 let nanvalue: number = NaN;
 console.log(nanvalue);
+
+//* String Type :📌
+//*any value under single of double quotes are treated as string, Also any exp. result string as output
