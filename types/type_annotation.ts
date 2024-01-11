@@ -47,3 +47,17 @@ let uppercaseText = fullname.toUpperCase();
 let lowercaseText = fullname.toLowerCase();
 console.log(uppercaseText);
 console.log(lowercaseText);
+
+// Todo *️⃣Substring :
+let shortText = str.substring(0, 10);
+console.log(shortText);
+
+// Todo *️⃣String Comparison :
+let areEqual: boolean = fname === lname;
+console.log(areEqual);
+
+// Todo *️⃣String Template :
+let product: string = "Laptop";
+let price: number = 50000;
+let prdInfo: string = ` ${product} :  ${price}`;
+console.log(prdInfo);

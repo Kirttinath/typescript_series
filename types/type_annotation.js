@@ -33,3 +33,14 @@ var uppercaseText = fullname.toUpperCase();
 var lowercaseText = fullname.toLowerCase();
 console.log(uppercaseText);
 console.log(lowercaseText);
+// Todo *️⃣Substring :
+var shortText = str.substring(0, 10);
+console.log(shortText);
+// Todo *️⃣String Comparison :
+var areEqual = fname === lname;
+console.log(areEqual);
+// Todo *️⃣String Template :
+var product = "Laptop";
+var price = 50000;
+var prdInfo = " ".concat(product, " :  ").concat(price);
+console.log(prdInfo);
