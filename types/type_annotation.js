@@ -14,3 +14,10 @@ console.log(num1.toString());
 //? Number types in Typescript support arithimatic operations such as (+,-,*,/) and the results of these operations are also numbers.
 var nanvalue = NaN;
 console.log(nanvalue);
+//* String Type :📌
+//*any value under single of double quotes are treated as string, Also any exp. result string as output
+var fullname = "Kirttinath";
+var fname = "Kirtti";
+var lname = "ojha";
+fullname = fname + lname;
+console.log(fullname);

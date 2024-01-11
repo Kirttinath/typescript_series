@@ -26,3 +26,9 @@ console.log(nanvalue);
 
 //* String Type :📌
 //*any value under single of double quotes are treated as string, Also any exp. result string as output
+
+let fullname = "Kirttinath";
+let fname = "Kirtti";
+let lname = "ojha";
+fullname = fname + lname;
+console.log(fullname);
