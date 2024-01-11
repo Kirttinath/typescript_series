@@ -31,3 +31,9 @@
 📍Static typing :
 _______________________
 The static typing means checks the types of variables at compile time instead of run time.
+
+📍Type Annotation :
+____________________
+It is a way in which we can provide information about what type of data a variable.
+let num: number = 12;
+       -------- : Type annotation
