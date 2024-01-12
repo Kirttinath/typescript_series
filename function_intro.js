@@ -18,3 +18,12 @@ console.log(greet("Kirtti", 45));
 //! Function Return : How do you specify the return type of a function in Typescript ?
 //? A function may return a value to indicate the result of the execution. This is known as Function return
 //* To Specify the return type of a function, you can use the colon (:) followed by the desired type after the function's parameter list.
+// Todo Pallindrome function :
+// Write a typescript function which checks if a given string is palindrome or not .
+var palstr = "madam";
+function isPallindrome(rev) {
+    var revpalin = rev.split("").reverse().join("");
+    return revpalin === rev;
+}
+var res = isPallindrome(palstr);
+console.log(res);
