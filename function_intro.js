@@ -12,6 +12,9 @@ function greeting(name, id) {
 greeting("Kirtti", 18);
 //Fat arrow function
 var greet = function (name, id) {
-    console.log("Name : ".concat(name, " and id : ").concat(id));
+    return "Name : ".concat(name, " and id : ").concat(id);
 };
-greet("Kirtti", 45);
+console.log(greet("Kirtti", 45));
+//! Function Return : How do you specify the return type of a function in Typescript ?
+//? A function may return a value to indicate the result of the execution. This is known as Function return
+//* To Specify the return type of a function, you can use the colon (:) followed by the desired type after the function's parameter list.
