@@ -12,3 +12,13 @@ favnum = "Kirtti";
 //* Workingg with Dynamic Data : When dealing with data from dynamic sources like user inputs, networks responses, or deserialized JSON objects, rhe any type can be useful.
 
 //*Migration from Javascript : When migrating an existing javascript codebase to Typescript, using the any type can be a convinient way to quickly annote variables and functions without immidiately specifying their precise types.
+
+//* Unknown Type :
+
+//? The unknown type is a safer alternative to any because it still enforces type checking and type safety.
+
+//? Variables of type unknown can hold valus of any type, but you must perform typechecks or type assertions before using them in specific ways.
+
+let favnum1: unknown = 44;
+favnum1 = true;
+//! favnum1.map(() => {}); it shows error
