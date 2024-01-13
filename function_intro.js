@@ -27,3 +27,28 @@ function isPallindrome(rev) {
 }
 var res = isPallindrome(palstr);
 console.log(res);
+//! Homework :
+//? Create a function called calculateAverage that takes an array of numbers as a parameter and returns the average of those number.
+function calculateAverage(numbers) {
+    if (numbers.length === 0) {
+        throw new Error("Empty array provided!");
+    }
+    var sum = numbers.reduce(function (acc, num) { return acc + num; }, 0);
+    var average = sum / numbers.length;
+    return average;
+}
+// Example usage:
+var numbersArray1 = [1, 2, 3, 4, 5];
+var result = calculateAverage(numbersArray1);
+console.log(result); //* Output: 3
+//? Write a function called findMax value that takes an array of numbers as a parameter returns the maximum value in the array.
+function findMaxValue(numbers) {
+    if (numbers.length === 0) {
+        throw new Error("Input array must have at least one element");
+    }
+    return Math.max.apply(Math, numbers);
+}
+// Example usage:
+var numbersArray2 = [3, 7, 2, 8, 5];
+var maxResult = findMaxValue(numbersArray2);
+console.log(maxResult); //* Output: 8
