@@ -34,3 +34,37 @@ function isPallindrome(rev: string): boolean {
 
 let res = isPallindrome(palstr);
 console.log(res);
+
+//! Homework :
+//? Create a function called calculateAverage that takes an array of numbers as a parameter and returns the average of those number.
+
+function calculateAverage(numbers: number[]): number {
+  if (numbers.length === 0) {
+    throw new Error("Empty array provided!");
+  }
+
+  const sum = numbers.reduce((acc, num) => acc + num, 0);
+  const average = sum / numbers.length;
+
+  return average;
+}
+
+// Example usage:
+const numbersArray1: number[] = [1, 2, 3, 4, 5];
+const result = calculateAverage(numbersArray1);
+console.log(result); //* Output: 3
+
+//? Write a function called findMax value that takes an array of numbers as a parameter returns the maximum value in the array.
+
+function findMaxValue(numbers: number[]): number {
+  if (numbers.length === 0) {
+    throw new Error("Input array must have at least one element");
+  }
+
+  return Math.max(...numbers);
+}
+
+// Example usage:
+const numbersArray2: number[] = [3, 7, 2, 8, 5];
+const maxResult = findMaxValue(numbersArray2);
+console.log(maxResult); //* Output: 8
