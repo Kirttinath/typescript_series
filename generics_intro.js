@@ -29,9 +29,10 @@ console.log(booleanresult);
 // const result1 = add(5, 10); // Output: 15
 // const result2 = add("Hello", "world!"); //Hello, world!
 //? You need to code the same using he Generics Types.
-var add = function (a, b) {
-    return a + b;
-};
+function add(a, b) {
+    console.log(typeof a);
+    console.log(typeof b);
+}
 var result1 = add(5, 10);
 var result2 = add("Hello", "world!");
 console.log(result1);

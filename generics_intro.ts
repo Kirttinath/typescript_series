@@ -36,7 +36,8 @@ console.log(booleanresult);
 // const result2 = add("Hello", "world!"); //Hello, world!
 
 //? You need to code the same using he Generics Types.
-function add<Ty>(a: Ty, b: Ty): Ty {
+
+function add<T>(a: T, b: T): void {
   return a + b;
 }
 const result1 = add<number>(5, 10);
