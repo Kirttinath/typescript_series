@@ -29,11 +29,18 @@
 📌The main difference between the .ts and .tsx extensions is that the tsx extension is used for TypeScript files that include JSX syntax, while the .ts extension is used for regular TypeScript files that do not contain JSX.
 
 📍Static typing :
-_______________________
+
+---
+
 The static typing means checks the types of variables at compile time instead of run time.
 
 📍Type Annotation :
-____________________
+
+---
+
 It is a way in which we can provide information about what type of data a variable.
 let num: number = 12;
-       -------- : Type annotation
+-------- : Type annotation
+
+✅ Parcel :
+📍Parcel is a web application bundler that simplifies the process of building and bundling javascript, css and other assest for web development.
